@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NeeDo 日本本地生活服务平台，支持上门服务、门店预约、商家运营与平台管理。"
+    />
+    <title>NeeDo</title>
+    <script>
+      if (window.location.protocol === "file:" && !window.location.pathname.includes("/dist/")) {
+        window.location.replace(new URL("./dist/index.html", window.location.href).href);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
